@@ -1,3 +1,17 @@
 .logo{
-    max-width: 18rem;
+    max-width: 8rem;
+    height: 4rem;
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.logoContainer p{
+    font-size: 0.8rem;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
 }
