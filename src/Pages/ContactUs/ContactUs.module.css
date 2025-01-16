@@ -1,0 +1,63 @@
+.contactSection {
+    padding: 60px 20px;
+    background-color: #006400; /* Deep green background for emphasis */
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .contactTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .contactDescription {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #e6ffe6; /* Lighter green for better readability */
+  }
+  
+  .contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contactForm input::placeholder,
+  .contactForm textarea::placeholder {
+    color: #aaaaaa;
+  }
+  
+  .contactForm textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .contactForm button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #006400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .contactForm button:hover {
+    background-color: #e6ffe6;
+    color: #004000;
+  }
+  

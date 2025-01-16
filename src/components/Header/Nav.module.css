@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    gap: 1.2rem;
+}
+.navLink:link,.navLink:visited{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #f8f9fa;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navLink:hover,.navLink:active{
+    color:#FFD700
+}

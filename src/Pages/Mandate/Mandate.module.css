@@ -1,0 +1,150 @@
+/* Mandate Section */
+.mandate {
+    background-color: #ffffff; /* White background for clarity */
+    color: #333; /* Neutral text color */
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  /* General Section Background */
+.mandate {
+    background-color: #f9f9f9; /* Default light background */
+    transition: background-color 0.5s ease, transform 0.5s ease; /* Smooth transition for background */
+  }
+  
+  /* On hover: Slight color change and zoom */
+  .mandate:hover {
+    background-color: #e0ffe0; /* Subtle greenish tint on hover */
+    transform: scale(1.02); /* Slight zoom effect */
+  }
+  
+  /* Page Load Animation */
+  .mandate {
+    animation: fadeBackground 1s ease forwards;
+  }
+  
+  @keyframes fadeBackground {
+    from {
+      background-color: #ffffff; /* Start with white */
+      opacity: 0;
+    }
+    to {
+      background-color: #f9f9f9; /* Transition to default background */
+      opacity: 1;
+    }
+  }
+  
+  .mandate .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .mandate h2 {
+    font-size: 2.5rem;
+    color: #006400; /* Dark green for consistency */
+    margin-bottom: 1.5rem;
+  }
+  
+  .mandate p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .mandateList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mandateList li  {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+  }
+  
+  /* .icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  } */
+  .icon {
+    width: 40px;
+    height: 40px;
+    color: #006400; /* Matches the dark green theme */
+    flex-shrink: 0; /* Prevents the icon from shrinking in size */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .icon {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  .icon:hover {
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+    color: #32cd32; /* Change color to a lighter green on hover */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Slight slide-up effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .mandateList li p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .objectiveSection {
+    padding: 60px 20px;
+    background-color: #f1f8f5; /* Light green background for distinction */
+    text-align: center;
+  }
+  
+  .objectiveTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #006400; /* Deep green for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .objectivesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .objectiveList li {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    list-style: none;
+  }
+  
+  .objectiveList li:hover {
+    transform: translateY(-12px); /* Lift effect on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .objectivesList li p {
+    font-size: 1rem;
+    color: #333333; /* Dark gray for readability */
+    line-height: 1.6;
+    margin: 0;
+  }
+  
