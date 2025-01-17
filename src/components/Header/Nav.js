@@ -1,8 +1,8 @@
 import styles from "./Nav.module.css"
 
-function Nav(){
+function Nav({isMenuOpen}){
     return(
-        <nav className={styles.nav}>
+        <nav className={`${styles.nav} ${isMenuOpen ? styles.show : ""}`}>
             <a href='#home' className={styles.navLink}>Home</a>
             <a href='#about' className={styles.navLink}>About Us</a>
             <a href='#mandate' className={styles.navLink}>Mandate</a>

@@ -13,3 +13,20 @@
 .navLink:hover,.navLink:active{
     color:#FFD700
 }
+
+@media (max-width: 768px) {
+    .nav {
+      display: none; 
+      flex-direction: column;
+      background-color: #004d00;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+    .nav.show{
+        display: flex;
+    }
+}

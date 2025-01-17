@@ -38,7 +38,7 @@ function AboutUs() {
       </div>
       <div className={styles.aboutImages}>
         <img
-          src={images[currentImageIndex]}
+          src={images[currentImageIndex]} 
           alt="About Ministry"
           className={styles.aboutImage}
         />
